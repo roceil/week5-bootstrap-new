@@ -1,0 +1,33 @@
+.nav-item{
+  position: relative;
+  &:hover{
+    .nav-before{
+      display: block;
+    }
+  }
+  .nav-before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 32px;
+    background-color: $success;
+    top: -4px;
+    left: -32px;
+    display: none;
+  }
+}
+.active{
+  .nav-before{
+    display: block;
+  }
+  a{
+    color: $success;
+  }
+}
+.page-link{
+  &:hover{
+    span{
+      color: white !important;
+    }
+  }
+}

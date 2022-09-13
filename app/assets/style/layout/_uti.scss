@@ -1,0 +1,29 @@
+.w-296{
+    width: 296px;
+}
+.w-40{
+    width: 40px;
+}
+.h-40{
+    height: 40px;
+}
+.h-55{
+    height: 55px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mb-63{
+    margin-bottom: 63px;
+}
+.hover-success{
+    &:hover{
+        color: $success;
+    }
+}
+.cursor-p{
+    cursor: pointer;
+}
+.fs-4{
+    font-size: 1rem !important;
+}

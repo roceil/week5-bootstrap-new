@@ -1,0 +1,186 @@
+---
+title: ANSWER-Admin
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main class="w-100">
+  <!-- 上方標題列 -->
+  <section class="py-5">
+    <div class="container d-flex align-items-center justify-content-between">
+      <!-- 左方內容 -->
+      <div class="d-flex align-items-center">
+        <h2 class="me-6 mb-0 fw-bold">Admin</h2>
+        <div class="d-flex cursor-p">
+          <span class="material-icons mr-8 text-success">add</span>
+          <p class="fw-bold">Add New Admin</p>
+        </div>
+      </div>
+      <!-- 左方內容 -->
+
+      <!-- 右方內容 -->
+      <div class="d-flex cursor-p">
+        <span class="material-icons me-4 hover-success">search</span>
+        <span class="material-icons hover-success">notifications_active</span>
+      </div>
+      <!-- 右方內容 -->
+    </div>
+  </section>
+  <!-- 中間表格區 -->
+  <section class="mb-63">
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col" class="fw-bold">ID<span class="material-icons text-success">
+                arrow_downward
+              </span></th>
+            <th scope="col" class="fw-bold">Name</th>
+            <th scope="col" class="fw-bold">Email</th>
+            <th scope="col" class="fw-bold">Verified</th>
+            <th scope="col" class="fw-bold"> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 01 -->
+          <tr class="">
+            <th scope="row" class="">#1</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 02 -->
+          <tr class="">
+            <th scope="row" class="">#2</th>
+            <td>Zaina Goldsmith</td>
+            <td>zaina.goldsmith@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 03 -->
+          <tr class="">
+            <th scope="row" class="">#3</th>
+            <td>Mahima Lopez</td>
+            <td>mahima.lopez@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 04 -->
+          <tr class="">
+            <th scope="row" class="">#4</th>
+            <td>Pharrell Murray</td>
+            <td>pharrell.murray@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 05 -->
+          <tr class="">
+            <th scope="row" class="">#5</th>
+            <td>Annika Mcbride</td>
+            <td>annika.mcbride@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 06 -->
+          <tr class="">
+            <th scope="row" class="">#6</th>
+            <td>Fatimah Clark</td>
+            <td>fatimah.clark@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 07 -->
+          <tr class="">
+            <th scope="row" class="">#7</th>
+            <td>Klaudia Rhodes</td>
+            <td>klaudia.rhodes@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 08 -->
+          <tr class="">
+            <th scope="row" class="">#8</th>
+            <td>Tillie Lucero</td>
+            <td>tillie.lucero@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 09 -->
+          <tr class="">
+            <th scope="row" class="">#9</th>
+            <td>Sabrina Stephenson</td>
+            <td>sabrina.stephenson@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+          <!-- 10 -->
+          <tr class="">
+            <th scope="row" class="">#10</th>
+            <td>Annie Smith</td>
+            <td>annie.smith@mail.com</td>
+            <td>Yes</td>
+            <td class="text-end ">
+              <span class="material-icons me-4 hover-success cursor-p">visibility</span>
+              <span class="material-icons hover-success cursor-p">edit</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <!-- 下方分頁按鈕 -->
+  <section class="">
+    <div class="container d-flex justify-content-end">
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link " href="#" aria-label="Previous">
+              <span class="material-icons arrow text-success fs-4 align-text-bottom">
+                arrow_back_ios_new
+              </span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item "><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span class="material-icons arrow text-success fs-4 align-text-bottom ">
+                arrow_forward_ios
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+</main>

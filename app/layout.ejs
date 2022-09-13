@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+
+  <!-- google icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="d-flex">
+  <h1 class="d-none">answer</h1>
+  <header class="bg-light w-296 vh-100 p-5 pe-0 d-flex flex-column justify-content-between">
+    <!-- nav上方選單 -->
+    <div class="">
+      <a href="#"><img
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg"
+          alt="logo" class="pb-5"></a>
+      <ul class="nav flex-column">
+        <!-- 01 Dashboard -->
+        <li class="nav-item mb-4">
+          <div class="nav-before"></div>
+          <a class="nav-link fw-bold d-flex" aria-current="page" href="#"><span
+              class="material-icons me-3">assessment</span>Dashboard</a>
+        </li>
+        <!-- 02 Question -->
+        <li class="nav-item mb-4">
+          <div class="nav-before"></div>
+          <a class="nav-link fw-bold d-flex" aria-current="page" href="#"><span
+              class="material-icons me-3">question_answer</span>Question</a>
+        </li>
+        <!-- 03 Assignment -->
+        <li class="nav-item mb-4">
+          <div class="nav-before"></div>
+          <a class="nav-link fw-bold d-flex" aria-current="page" href="#"><span
+              class="material-icons me-3">assignment</span>Assignment</a>
+        </li>
+        <!-- 04 Course -->
+        <li class="nav-item mb-4">
+          <div class="nav-before"></div>
+          <a class="nav-link fw-bold d-flex" aria-current="page" href="#"><span
+              class="material-icons me-3">video_library</span>Course</a>
+        </li>
+        <!-- 05 Admin -->
+        <li class="nav-item mb-4 active">
+          <div class="nav-before"></div>
+          <a class="nav-link fw-bold d-flex active" aria-current="page" href="#"><span
+              class="material-icons me-3">supervisor_account</span>Admin</a>
+        </li>
+        <!-- 06 Settings -->
+        <li class="nav-item mb-4">
+          <div class="nav-before"></div>
+          <a class="nav-link fw-bold d-flex" aria-current="page" href="#"><span
+              class="material-icons me-3">settings</span>Settings</a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- nav上方選單 -->
+
+    <!-- nav下方選單 -->
+    <div class="d-flex align-items-center">
+      <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/andychen.jpeg"
+        alt="Andy Chen" class="w-40 h-40 me-3 rounded-circle">
+      <div class="">
+        <p class="fw-bold">Andy Chen</p>
+        <p class="text-secondary">andy0401@mail.com</p>
+      </div>
+    </div>
+    <!-- nav下方選單 -->
+
+  </header>
+
+  <%- contents %>
+
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
